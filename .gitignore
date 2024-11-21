@@ -1,0 +1,68 @@
+# Created by https://www.toptal.com/developers/gitignore/api/nextjs,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=nextjs,visualstudiocode
+
+### NextJS ###
+# dependencies
+/node_modules
+/my-app/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/my-app/.next/
+/out/
+/my-app/out/
+
+# production
+/build
+/my-app/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+/my-app/.env*.local
+
+# vercel
+.vercel
+/my-app/.vercel
+
+# typescript
+*.tsbuildinfo
+/my-app/*.tsbuildinfo
+next-env.d.ts
+/my-app/next-env.d.ts
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+/my-app/.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/nextjs,visualstudiocode
